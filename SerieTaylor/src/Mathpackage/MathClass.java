@@ -16,10 +16,11 @@ public class MathClass {
     }
 
 
-    double resultado = 1;
+    //double resultado = 1;
 
     //Metodo de Factorial
     public float Factorial(double n) {
+        double resultado = 1;
         while (n != 0) {
             resultado = resultado * n;
             n--;
@@ -30,6 +31,4 @@ public class MathClass {
     public double Ofactorial(int o) {
         return (o == 0 || o == 1) ? 1 : o * Ofactorial(o - 1);
     }
-
-
 }

@@ -24,8 +24,7 @@ public class MainClass {
         System.out.println(ob1.Factorial(5));
         System.out.println(ob1.Ofactorial(5));
         
-        System.out.println("hola");
-        
+   
         
         
         
