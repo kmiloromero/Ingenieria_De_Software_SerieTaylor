@@ -16,10 +16,11 @@ public class MathClass {
     }
 
 
-    double resultado = 1;
+    
 
     //Metodo de Factorial
     public float Factorial(double n) {
+        double resultado = 1;
         while (n != 0) {
             resultado = resultado * n;
             n--;
