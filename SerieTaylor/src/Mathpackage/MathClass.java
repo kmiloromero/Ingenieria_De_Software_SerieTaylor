@@ -1,15 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Mathpackage;
+//Metodos matematicos Basicos
 
-/**
- *
- * @author Romero
- */
 public class MathClass {
+
     
     /* Metodo potencia que recibe dos parametros x(valor numero)
      * i(numero de veces que se realizara el producto x
@@ -21,4 +14,22 @@ public class MathClass {
         } 
         return pot;
     }
+
+
+    double resultado = 1;
+
+    //Metodo de Factorial
+    public float Factorial(double n) {
+        while (n != 0) {
+            resultado = resultado * n;
+            n--;
+        }
+        return (float) resultado;
+    }
+
+    public double Ofactorial(int o) {
+        return (o == 0 || o == 1) ? 1 : o * Ofactorial(o - 1);
+    }
+
+
 }
