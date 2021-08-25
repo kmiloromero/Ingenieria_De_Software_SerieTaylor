@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 package Taylorpackage;
-
+/*Se importa el paquete defunciones Mathpackage para utilizacion de operaciones
+ *exponecial, factorial */
+import Mathpackage.*;
 /**
  *
  * @author Romero
