@@ -33,6 +33,5 @@ public class TaylorClass {
         }while(count < 4);
          resultado = sumapositiva + sumanegativa;
         return resultado;     
-    }
-    
+    }    
 }
