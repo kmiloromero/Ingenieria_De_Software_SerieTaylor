@@ -18,22 +18,21 @@ public class TaylorClass {
         //atributos necesarios para aproximar la funcion SenX
         byte count = 1;
         int potencia = 1;
-        float potencia2 = 3;
+        int potencia2 = 3;
         float resultado;
         float sumapositiva = 0;
         float sumanegativa = 0;
         
         MathClass Mc = new MathClass();
         do{
-            sumapositiva = sumapositiva + (Mc.potencia(valor, potencia))/Mc.Factorial(potencia);
+            sumapositiva = sumapositiva + (Mc.mPotencia(valor, potencia))/Mc.mFactorial(potencia);
             potencia += 4;
-            sumanegativa = sumanegativa - (Mc.potencia(valor, potencia2))/Mc.Factorial(potencia2);
+            sumanegativa = sumanegativa - (Mc.mPotencia(valor, potencia2))/Mc.fFactorial(potencia2);
             potencia += 4;
             count++;
         }while(count < 4);
          resultado = sumapositiva + sumanegativa;
-        return
-       
+        return resultado;     
     }
     
 }

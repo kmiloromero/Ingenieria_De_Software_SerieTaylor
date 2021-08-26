@@ -14,13 +14,13 @@ public class MathClass {
     }
 
     //Metodo de Factorial
-    public float mFactorial(double n) {
-        double resultado = 1;
+    public float mFactorial(float n) {
+        float resultado = 1;
         while (n != 0) {
             resultado = resultado * n;
             n--;
         }
-        return (float) resultado;
+        return resultado;
     }
 
     public float fFactorial(int numero) {
