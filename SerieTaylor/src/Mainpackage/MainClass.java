@@ -27,6 +27,6 @@ public class MainClass {
         float val = entrada.nextFloat();                      //Se solicita por teclado un valor en grados al usuario
         x = val*3.141592/180.0;                               //Se realiza la conversion a radianes del valor ingresado 
         y = obj.senX(x);                                      //Se llama al metodo SenX() del package MathClass  
-        System.out.println(" Sen(" + val + ") = " + y );    
+        System.out.println(" senX(" + val + ") = " + y );    
     }
 }
