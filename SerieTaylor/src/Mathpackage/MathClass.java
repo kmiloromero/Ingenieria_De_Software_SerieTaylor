@@ -4,9 +4,8 @@ package Mathpackage;
 public class MathClass {
 
     
-    /* Metodo potencia que recibe dos parametros x(valor numero)
-     * i(numero de veces que se realizara el producto x
-    */
+    //Metodo potencia que recibe dos parametros x(valor numero)
+    //i(numero de veces que se realizara el producto x */
     public float potencia(float x, int i){
         float pot = 1 ;
         for(int k = 1; k <= i; k++){
@@ -14,9 +13,6 @@ public class MathClass {
         } 
         return pot;
     }
-
-
-    //double resultado = 1;
 
     //Metodo de Factorial
     public float Factorial(double n) {
