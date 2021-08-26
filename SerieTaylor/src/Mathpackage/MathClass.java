@@ -2,8 +2,7 @@ package Mathpackage;
 //Metodos matematicos Basicos
 
 public class MathClass {
-
-    
+   
     //Metodo potencia que recibe dos parametros x(valor numero)
     //i(numero de veces que se realizara el producto x */
     public float potencia(float x, int i){
