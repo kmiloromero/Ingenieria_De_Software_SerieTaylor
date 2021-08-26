@@ -14,14 +14,14 @@ import Mathpackage.*;
  */
 public class TaylorClass {
     
-    public float senX(float valor){
+    public double senX(double valor){
         //atributos necesarios para aproximar la funcion SenX
         byte count = 1;
         int potencia = 1;
         int potencia2 = 3;
-        float resultado;
-        float sumapositiva = 0;
-        float sumanegativa = 0;
+        double resultado;
+        double sumapositiva = 0;
+        double sumanegativa = 0;
         
         MathClass Mc = new MathClass();
         do{
