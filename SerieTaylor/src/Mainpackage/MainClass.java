@@ -20,9 +20,7 @@ public class MainClass {
      */
     
     public static void main(String[] args) {
-        MathClass ob1 = new MathClass ();
-        System.out.println(ob1.Factorial(5));
-        System.out.println(ob1.Ofactorial(5));
+
         
    
         
